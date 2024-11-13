@@ -26,8 +26,8 @@ const ChartSection = ({ data }) => {
   }, []);
 
   return (
-    <div className="h-48 sm:h-64 md:h-96 md:mb-6 w-120% -ml-10">
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="h-48 sm:h-64 md:h-96 md:mb-6 w-110% -ml-10">
+      <ResponsiveContainer width="110%" height="100%">
         <LineChart data={data} margin={{ top: 20, right: 30, left: 60, bottom: 20 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
