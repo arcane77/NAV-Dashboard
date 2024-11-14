@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NAV-Dashboard/static/css/main.9a892ba1.css",
-    "main.js": "/NAV-Dashboard/static/js/main.36d4a0ec.js",
-    "static/js/453.909eed56.chunk.js": "/NAV-Dashboard/static/js/453.909eed56.chunk.js",
-    "index.html": "/NAV-Dashboard/index.html",
-    "main.9a892ba1.css.map": "/NAV-Dashboard/static/css/main.9a892ba1.css.map",
-    "main.36d4a0ec.js.map": "/NAV-Dashboard/static/js/main.36d4a0ec.js.map",
-    "453.909eed56.chunk.js.map": "/NAV-Dashboard/static/js/453.909eed56.chunk.js.map"
+    "main.css": "/NAV-dashboard/static/css/main.9a892ba1.css",
+    "main.js": "/NAV-dashboard/static/js/main.6307acda.js",
+    "static/js/453.909eed56.chunk.js": "/NAV-dashboard/static/js/453.909eed56.chunk.js",
+    "index.html": "/NAV-dashboard/index.html",
+    "main.9a892ba1.css.map": "/NAV-dashboard/static/css/main.9a892ba1.css.map",
+    "main.6307acda.js.map": "/NAV-dashboard/static/js/main.6307acda.js.map",
+    "453.909eed56.chunk.js.map": "/NAV-dashboard/static/js/453.909eed56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a892ba1.css",
-    "static/js/main.36d4a0ec.js"
+    "static/js/main.6307acda.js"
   ]
 }
