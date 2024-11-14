@@ -1,4 +1,3 @@
-// src/components/Dashboard/ControlsSection.js
 import React from 'react';
 import Input from '../ui/Input';
 import { Search } from 'lucide-react';
@@ -11,7 +10,7 @@ const ControlsSection = ({
 }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-      {/* Search Input */}
+      {/* search */}
       <div className="flex items-center space-x-2 mt-6">
         <Search className="w-4 h-4 text-gray-500" />
         <Input
@@ -23,7 +22,7 @@ const ControlsSection = ({
         />
       </div>
 
-      {/* From Date Picker */}
+      {/* from */}
       <div className="flex flex-col space-y-1">
         <label className="text-sm font-medium text-gray-700">From</label>
         <Input
@@ -34,7 +33,7 @@ const ControlsSection = ({
         />
       </div>
 
-      {/* To Date Picker */}
+      {/* to */}
       <div className="flex flex-col space-y-1">
         <label className="text-sm font-medium text-gray-700">To</label>
         <Input

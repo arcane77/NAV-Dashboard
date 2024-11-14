@@ -7,12 +7,12 @@ import CustomTooltip from './CustomToolTip';
 const ChartSection = ({ data }) => {
   const [showDots, setShowDots] = useState(window.innerWidth >= 768);
 
-  // Calculate Y-axis domain with a small buffer for more visible fluctuations
+  // y-axis domain with small buffer for visible fluctuations
   const yDomain = useMemo(() => {
     const navValues = data.map(d => d.nav);
     const minNav = Math.min(...navValues);
     const maxNav = Math.max(...navValues);
-    const padding = (maxNav - minNav) * 0.1; // 10% padding for buffer
+    const padding = (maxNav - minNav) * 0.1; 
     return [minNav - padding, maxNav + padding];
   }, [data]);
 
@@ -26,12 +26,12 @@ const ChartSection = ({ data }) => {
   }, []);
 
   return (
-    <div className="h-48 sm:h-64 md:h-96 md:mb-6 w-110% -ml-10">
-      <ResponsiveContainer width="110%" height="100%">
+    <div className="h-48 sm:h-64 md:h-96 md:mb-6 md:w-110% -ml-10">
+      <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ top: 20, right: 30, left: 60, bottom: 20 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
-          <YAxis domain={yDomain} /> {/* Set dynamic Y-axis domain */}
+          <YAxis domain={yDomain} /> 
           <Tooltip content={<CustomTooltip />} />
           <Legend />
           <Line 

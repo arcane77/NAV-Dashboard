@@ -1,4 +1,3 @@
-// src/components/Dashboard/TableSection.js
 import React from 'react';
 import { SortAsc, SortDesc } from 'lucide-react';
 

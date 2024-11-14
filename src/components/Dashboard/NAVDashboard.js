@@ -1,4 +1,3 @@
-// src/components/Dashboard/NAVDashboard.js
 import React, { useState, useMemo } from 'react';
 import Card from '../ui/Card';
 import ChartSection from './ChartSection';
@@ -58,10 +57,10 @@ const NAVDashboard = () => {
           <Card.Title>Hedge Fund NAV Dashboard</Card.Title>
         </Card.Header>
         <Card.Content>
-          {/* Chart Section */}
+          {/* chart */}
           <ChartSection data={filteredAndSortedData} />
 
-          {/* Controls Section */}
+          {/* controls */}
           <ControlsSection 
             searchTerm={searchTerm} setSearchTerm={setSearchTerm}
             startDate={startDate} setStartDate={setStartDate}
@@ -69,7 +68,7 @@ const NAVDashboard = () => {
             sortConfig={sortConfig} handleSort={handleSort}
           />
 
-          {/* Table Section */}
+          {/* table */}
           <TableSection data={filteredAndSortedData} sortConfig={sortConfig} handleSort={handleSort} />
         </Card.Content>
       </Card>
